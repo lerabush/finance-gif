@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GifStonks</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./index.js"></script>
+
+</head>
+<body>
+<div class="mainCtn">
+    <header>
+        <div class="site-header">
+            <img class="site-icon" src="stonks.png">
+            <p class="site-name">
+                GifStonks
+            </p>
+        </div>
+    </header>
+    <div class="selectCurrencyCtn">
+        <p>Select currency:</p>
+        <div class="currencyList">
+            <select id="codes_curr"></select>
+            <button id="check" onclick="loadGif()">Check</button>
+        </div>
+    </div>
+    <div class="gif-content">
+    </div>
+</div>
+<script>
+    $(loadCurrencies());
+</script>
+</body>
+</html>

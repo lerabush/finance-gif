@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+body {
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    margin: 0;
+}
+
+header {
+    background: #C17945;
+    width: 100%;
+}
+
+.site-header {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-icon {
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+}
+
+.site-name {
+    display: block;
+}
+
+.imgGif {
+    height: 500px;
+    width: auto;
+}
+.gifText{
+    text-align: center;
+    display: block;
+}
+
+.gif-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.selectCurrencyCtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
