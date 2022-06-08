@@ -22,3 +22,14 @@ http://localhost:8080/finance-gif/get-currencies
 ```
 http://localhost:8080/finance-gif/get-gif
 ```
+## Docker
+Для создания образа используется следующая команда:
+
+```
+docker build -t finance-gif:0.0.1 .
+```
+Для запуска контейнера:
+
+```
+docker run -d -p 8080:8080 -t finance-gif:0.0.1
+```
