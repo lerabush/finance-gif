@@ -1,4 +1,4 @@
-const appUrl = './gif-finance/';
+const appUrl = './finance-gif/';
 
 function loadCurrencies() {
     $.ajax({

@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/gif-finance")
+@RequestMapping("/finance-gif")
 public class FinanceGifController {
     private final GifService gifService;
     private final ExchangeRatesService exchangeRatesService;
